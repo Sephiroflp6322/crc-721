@@ -107,24 +107,7 @@ The `type` field is optional and can be used to assign roles within the collecti
 | components |  Yes | Components: Inscription IDs of image material |
 
 
-## Mint Inscription
 
-The Mint-Inscription describes how the image assets are stacked and recreated to form the final image. 
-
-```json
-{
-    "p": "crc-721",
-    "op": "mint",
-    "slug": "robot-world",
-    "hash": "f5be8929191cac129e8440df6c10c1be",
-    "deploy_ins": "5c40b1bf6eca38ddeeed8b211d50232959706d63c9aded440fd54369162ffcbei0",
-    "compose": [
-        [0,2],
-        [0,6],
-        [0,10],
-        [0,16],
-        [1,0]
-    ]
 }
 ```
 
